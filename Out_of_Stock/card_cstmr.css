@@ -1,0 +1,162 @@
+/* card.css */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  margin: 2%;
+}
+
+.card {
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px #e55604;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.des {
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #e55604;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.whole {
+  text-align: center;
+  color: #b2bec3;
+  padding-top: 8px;
+}
+
+.abc {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  background-color: #66a0cc;
+  color: white;
+  font-weight: 300;
+  border-radius: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .card {
+      width: 28%;
+  }
+
+  .main {
+      margin: 1%;
+  }
+
+  button {
+      margin-top: 30px;
+      padding: 8px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card {
+      width: 45%;
+      margin: 1.5%;
+  }
+
+  h1 {
+      font-size: 18px;
+  }
+
+  .des {
+      padding: 5px;
+      font-size: 14px;
+  }
+
+  button {
+      margin-top: 20px;
+      padding: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+      width: 100%;
+      margin: 1% 0;
+  }
+
+  .title {
+      padding: 8px;
+  }
+
+  h1 {
+      font-size: 16px;
+  }
+
+  .des {
+      padding: 4px;
+  }
+
+  button {
+      margin-top: 15px;
+      padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+      width: 100%;
+      margin: 0.5% 0;
+  }
+
+  .title {
+      padding: 6px;
+  }
+
+  h1 {
+      font-size: 14px;
+  }
+
+  .des {
+      padding: 3px;
+      font-size: 12px;
+  }
+
+  button {
+      margin-top: 10px;
+      padding: 4px;
+  }
+}

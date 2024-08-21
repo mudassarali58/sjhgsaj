@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav {
+    background-color: rgb(243, 201, 122);
+    box-shadow: 3px 0px grey;
+    border-radius: 30px;
+    padding: 10px;
+}  */
+ nav {
+    background-color: transparent;
+    /* box-shadow: 3px 0px rgb(245, 56, 56); */
+    border-radius: 30px;
+    padding: 10px;
+}  
+ /* nav {
+    background-color: rgba(243, 201, 122, 0.5);
+    box-shadow: 3px 0px grey;
+    border-radius: 30px;
+    padding: 10px;
+}  */
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+nav li {
+    height: 50px; 
+}
+
+nav a {
+    text-decoration: none;
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size:18px;
+}
+
+nav a:hover {
+    color:orange; 
+    /* color: #B4B4B3; */
+    
+}
+
+nav li.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav li.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the entire circular area */
+    margin-right: 10px;
+}
+
+nav .company {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+nav .spacer {
+    flex-grow: 1;
+}
+
+.search-bar{
+    margin-left: 100px;
+    padding-top: 15px;
+    
+
+    
+
+
+ }
+ .search-bar input[type="text"] {
+    background-image: url('bgimage.jpg');
+    background-color: transparent;
+    box-shadow: 2px 2px 3px 6px rgb(245, 56, 56); 
+    width: 380px;
+    height: 25px;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+
+ }
+ input::placeholder{
+    color: white;
+    padding-left: 3px;
+    
+ }
+
+/* Style the border when the input field is focused */
+
+/* .search-bar input[type="text"]:focus {
+    /* border-color: white;  */
+    /* outline: none; 
+    
+}  */
+
+ /* Search Button  */
+
+ /* .search-button {
+    margin-top: 12px;
+    margin-left: 12px;
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 16px;
+
+ }
+  */

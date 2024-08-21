@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+       /* background-color:  #9BB0C1; */
+       /* background-color: transparent; */
+   }
+
+.slider {
+    
+    position: relative;
+    height: 700px;
+  width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider hr{
+    width:900px;
+    
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
